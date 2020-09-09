@@ -18,6 +18,7 @@ public class EmployeeFinanceService {
 		
 		if (grossSalary>10000){
 			basicPay=grossSalary*0.4;
+			System.out.println("printing BasicPay");
 		}else {
 			basicPay=grossSalary*0.2;
 		}
